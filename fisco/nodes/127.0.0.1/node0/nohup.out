@@ -1,0 +1,1043 @@
+config file path : config.ini
+[2022-02-05 21:08:21] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20210830 12:52:15
+Build Type         : Linux/clang/Release
+Git Branch         : HEAD
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-05 21:08:21] The FISCO-BCOS is running...
+[2022-02-05 21:08:44] FISCO-BCOS program exit normally.
+nohup: failed to run command ‘/root/fisco/nodes/127.0.0.1/node0/../fisco-bcos’: Permission denied
+nohup: failed to run command ‘/root/fisco/nodes/127.0.0.1/node0/../fisco-bcos’: Permission denied
+config file path : config.ini
+[2022-02-05 21:18:36] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-05 21:18:36] The FISCO-BCOS is running...
+open /root/chainx/file/base_block.stk: no such file or directory
+open /root/chainx/file/base_block.pck: no such file or directory
+open /root/chainx/file/base_block.dict: no such file or directory
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-02-06 22:15:50] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-02-06 22:16:58] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-06 22:16:59] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-02-08 10:28:07] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-02-08 10:28:13] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-08 10:28:14] The FISCO-BCOS is running...
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 17 [running, locked to thread]:
+chainxx/cipheropt.AddCipher(0xc000012f30, 0xc000012f60, 0xc00005e050, 0xc00000e020, 0x7fffffff, 0x200, 0x0)
+	/var/local/chainxx/cipheropt/basicoptV4.3.go:27 +0x16f
+chainxx/lib.AddByteV2(0x7ff241e088d0, 0x0, 0x0, 0x7ff241e088d0, 0x0, 0x0, 0xc00005e050, 0xc00000e020, 0x7fffffff, 0x200, ...)
+	/var/local/chainxx/lib/lib.v2.go:131 +0xf5
+main.AddInt(0x1e3f758, 0x0, 0x1e3f758, 0x0, 0xc00009be90)
+	/var/local/chainxx/chainxx.go:206 +0x18d
+main._cgoexpwrap_e6bda7e8ae7c_AddInt(0x1e3f758, 0x0, 0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:299 +0x85
+config file path : config.ini
+[2022-02-08 12:11:58] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-08 12:11:58] The FISCO-BCOS is running...
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 17 [running, locked to thread]:
+chainxx/cipheropt.AddCipher(0xc000012e70, 0xc000012ed0, 0xc00005e050, 0xc00193a000, 0x7fffffff, 0x200, 0xb0)
+	/var/local/chainxx/cipheropt/basicoptV4.3.go:27 +0x16f
+chainxx/lib.AddByteV2(0xc0005242c0, 0x52, 0xb0, 0xc000524370, 0x52, 0xb0, 0xc00005e050, 0xc00193a000, 0x7fffffff, 0x200, ...)
+	/var/local/chainxx/lib/lib.v2.go:131 +0xf5
+main.AddInt(0x3d54018, 0xa4, 0x3d540d8, 0xa4, 0xc00032fe90)
+	/var/local/chainxx/chainxx.go:206 +0x18d
+main._cgoexpwrap_e6bda7e8ae7c_AddInt(0x3d54018, 0xa4, 0x3d540d8, 0xa4, 0x0)
+	_cgo_gotypes.go:299 +0x85
+config file path : config.ini
+[2022-02-08 12:18:26] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-08 12:18:26] The FISCO-BCOS is running...
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 17 [running, locked to thread]:
+chainxx/cipheropt.AddCipher(0xc000012570, 0xc0000125a0, 0xc00005e050, 0xc00000e020, 0x7fffffff, 0x200, 0x0)
+	/var/local/chainxx/cipheropt/basicoptV4.3.go:27 +0x16f
+chainxx/lib.AddByteV2(0x7f43ec0f18d0, 0x0, 0x0, 0x7f43ec0f18d0, 0x0, 0x0, 0xc00005e050, 0xc00000e020, 0x7fffffff, 0x200, ...)
+	/var/local/chainxx/lib/lib.v2.go:131 +0xf5
+main.AddInt(0x1e3f758, 0x0, 0x1e3f758, 0x0, 0xc00008fe90)
+	/var/local/chainxx/chainxx.go:206 +0x18d
+main._cgoexpwrap_e6bda7e8ae7c_AddInt(0x1e3f758, 0x0, 0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:299 +0x85
+config file path : config.ini
+[2022-02-08 12:23:54] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-08 12:23:54] The FISCO-BCOS is running...
+config file path : config.ini
+[2022-02-08 14:36:37] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-08 14:36:38] The FISCO-BCOS is running...
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 17 [running, locked to thread]:
+chainxx/cipheropt.AddCipher(0xc000012c30, 0xc000012c90, 0xc00005c050, 0xc0025a8000, 0x7fffffff, 0x200, 0x70)
+	/var/local/chainxx/cipheropt/basicoptV4.3.go:27 +0x16f
+chainxx/lib.AddByteV2(0xc00001e380, 0x37, 0x70, 0xc00001e3f0, 0x35, 0x70, 0xc00005c050, 0xc0025a8000, 0x7fffffff, 0x200, ...)
+	/var/local/chainxx/lib/lib.v2.go:131 +0xf5
+main.AddInt(0x336f968, 0x6e, 0x336e2e8, 0x6a, 0xc0001e7e90)
+	/var/local/chainxx/chainxx.go:206 +0x18d
+main._cgoexpwrap_e6bda7e8ae7c_AddInt(0x336f968, 0x6e, 0x336e2e8, 0x6a, 0x0)
+	_cgo_gotypes.go:299 +0x85
+config file path : config.ini
+[2022-02-08 21:28:00] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-08 21:28:00] The FISCO-BCOS is running...
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 17 [running, locked to thread]:
+chainxx/cipheropt.AddCipher(0xc000012240, 0xc000012450, 0xc00005e050, 0xc00000e020, 0x7fffffff, 0x200, 0x70)
+	/var/local/chainxx/cipheropt/basicoptV4.3.go:27 +0x16f
+chainxx/lib.AddByteV2(0xc00a418070, 0x37, 0x70, 0xc00a4180e0, 0x37, 0x70, 0xc00005e050, 0xc00000e020, 0x7fffffff, 0x200, ...)
+	/var/local/chainxx/lib/lib.v2.go:131 +0xf5
+main.AddInt(0x3adcd98, 0x6e, 0x3adce28, 0x6e, 0xc00008fe90)
+	/var/local/chainxx/chainxx.go:206 +0x18d
+main._cgoexpwrap_e6bda7e8ae7c_AddInt(0x3adcd98, 0x6e, 0x3adce28, 0x6e, 0x0)
+	_cgo_gotypes.go:299 +0x85
+config file path : config.ini
+[2022-02-08 21:38:06] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-08 21:38:07] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-02-09 11:33:22] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-02-09 11:33:27] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-09 11:33:28] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7fd9fd5e694c]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptInt(0x3ad1ba8, 0x6a, 0x0)
+	/var/local/chainxx/chainxx.go:164 +0x8c
+main._cgoexpwrap_e6bda7e8ae7c_DecryptInt(0x3ad1ba8, 0x6a, 0x0)
+	_cgo_gotypes.go:219 +0x6c
+config file path : config.ini
+[2022-02-09 11:35:12] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-09 11:35:12] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7f763d18e94c]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptInt(0x4840138, 0x6a, 0x0)
+	/var/local/chainxx/chainxx.go:164 +0x8c
+main._cgoexpwrap_e6bda7e8ae7c_DecryptInt(0x4840138, 0x6a, 0x0)
+	_cgo_gotypes.go:219 +0x6c
+config file path : config.ini
+[2022-02-09 11:36:48] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-09 11:36:48] The FISCO-BCOS is running...
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 17 [running, locked to thread]:
+chainxx/encdec.Decode(0xc000013080, 0xc000052040, 0x52)
+	/var/local/chainxx/encdec/encode.go:152 +0x238
+chainxx/lib.DecByteV2(0xc000100000, 0x52, 0xb0, 0xc000052040, 0xa5)
+	/var/local/chainxx/lib/lib.v2.go:42 +0x7d
+main.DecryptInt(0x412e018, 0xa5, 0x0)
+	/var/local/chainxx/chainxx.go:164 +0xac
+main._cgoexpwrap_e6bda7e8ae7c_DecryptInt(0x412e018, 0xa5, 0x0)
+	_cgo_gotypes.go:219 +0x6c
+config file path : config.ini
+[2022-02-09 11:41:43] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-09 11:41:43] The FISCO-BCOS is running...
+panic: runtime error: index out of range [13360] with length 521
+
+goroutine 17 [running, locked to thread]:
+chainxx/cipheropt.MultiplyCipherReal(0xc000018800, 0xc000018840, 0xc00a480000, 0x70)
+	/var/local/chainxx/cipheropt/realopt.go:129 +0x778c
+chainxx/lib.MultiplyDoubleV2(0xc00a4182a0, 0x36, 0x70, 0xc00a418310, 0x33, 0x70, 0xc00a480000, 0x0, 0x0, 0x3e23c40)
+	/var/local/chainxx/lib/lib.v2.go:176 +0xcb
+main.MultiplyDouble(0x43a00a8, 0x6c, 0x4b1c898, 0x66, 0xc000337e90)
+	/var/local/chainxx/chainxx.go:254 +0x155
+main._cgoexpwrap_e6bda7e8ae7c_MultiplyDouble(0x43a00a8, 0x6c, 0x4b1c898, 0x66, 0x0)
+	_cgo_gotypes.go:363 +0x85
+/root/fisco/nodes/127.0.0.1/node0/../fisco-bcos: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /root/fisco/nodes/127.0.0.1/libwrapper.so)
+/root/fisco/nodes/127.0.0.1/node0/../fisco-bcos: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /root/fisco/nodes/127.0.0.1/libwrapper.so)
+config file path : config.ini
+[2022-02-26 13:42:49] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-26 13:42:49] The FISCO-BCOS is running...
+/root/fisco/nodes/127.0.0.1/node0/../fisco-bcos: symbol lookup error: /root/fisco/nodes/127.0.0.1/node0/../fisco-bcos: undefined symbol: _Z12VSetFilePathSs
+config file path : config.ini
+[2022-02-26 13:47:59] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-26 13:47:59] The FISCO-BCOS is running...
+[2022-02-26 13:51:50] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-02-26 13:52:07] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-26 13:52:07] The FISCO-BCOS is running...
+[2022-02-26 16:56:09] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-02-26 17:00:01] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-26 17:00:01] The FISCO-BCOS is running...
+binary.Read failed: EOF
+asn1: syntax error: sequence truncated
+asn1: syntax error: truncated tag or length
+asn1: syntax error: truncated tag or length
+asn1: syntax error: sequence truncated
+asn1: syntax error: sequence truncated
+asn1: syntax error: sequence truncated
+asn1: structure error: tags don't match (16 vs {class:0 tag:14 length:48 isCompound:true}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+asn1: structure error: tags don't match (16 vs {class:0 tag:18 length:48 isCompound:true}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false} Cipher @2
+binary.Read failed: unexpected EOF
+asn1: syntax error: sequence truncated
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+asn1: syntax error: sequence truncated
+asn1: syntax error: sequence truncated
+asn1: syntax error: truncated tag or length
+asn1: syntax error: sequence truncated
+asn1: structure error: tags don't match (16 vs {class:0 tag:16 length:0 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false} Cipher @2
+asn1: syntax error: sequence truncated
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+binary.Read failed: unexpected EOF
+asn1: syntax error: sequence truncated
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+binary.Read failed: EOF
+binary.Read failed: EOF
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-02-26 18:12:24] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-02-26 18:19:38] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-02-26 18:19:38] The FISCO-BCOS is running...
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+binary.Read failed: EOF
+binary.Read failed: EOF
+asn1: structure error: tags don't match (16 vs {class:0 tag:2 length:4 isCompound:false}) {optional:false explicit:false application:false private:false defaultValue:<nil> tag:<nil> stringType:0 timeType:0 set:false omitEmpty:false}  @2
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-02-26 18:55:07] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-01 21:59:18] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-01 21:59:18] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-01 22:45:55] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-02 09:35:23] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 09:35:24] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7f3eeb01d90d]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptString(0x1e3f758, 0x0, 0xc000042eb0)
+	/var/local/chainxx/chainxx.go:294 +0x8d
+main._cgoexpwrap_3c8515718f13_DecryptString(0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:283 +0x6c
+config file path : config.ini
+[2022-03-02 09:46:10] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 09:46:11] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-02 12:30:02] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-02 12:30:08] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 12:30:08] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7fe2f9d1d90d]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptString(0x1e3f758, 0x0, 0xc000042eb0)
+	/var/local/chainxx/chainxx.go:294 +0x8d
+main._cgoexpwrap_3c8515718f13_DecryptString(0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:283 +0x6c
+config file path : config.ini
+[2022-03-02 12:32:09] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 12:32:09] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7f5a26e4e90d]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptString(0x1e3f758, 0x0, 0xc000042eb0)
+	/var/local/chainxx/chainxx.go:294 +0x8d
+main._cgoexpwrap_3c8515718f13_DecryptString(0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:283 +0x6c
+config file path : config.ini
+[2022-03-02 12:33:14] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 12:33:14] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7f883ac2290d]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptString(0x1e3f758, 0x0, 0xc000042eb0)
+	/var/local/chainxx/chainxx.go:294 +0x8d
+main._cgoexpwrap_3c8515718f13_DecryptString(0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:283 +0x6c
+config file path : config.ini
+[2022-03-02 14:23:41] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 14:23:41] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-02 16:15:07] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-02 16:15:14] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 16:15:14] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-02 18:33:01] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-02 20:18:08] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 20:18:09] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7fe57019d90d]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptString(0x1e3f758, 0x0, 0xc000042eb0)
+	/var/local/chainxx/chainxx.go:294 +0x8d
+main._cgoexpwrap_3c8515718f13_DecryptString(0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:283 +0x6c
+config file path : config.ini
+[2022-03-02 23:27:28] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 23:27:28] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-02 23:39:03] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-02 23:39:08] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 23:39:08] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-02 23:42:02] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-02 23:44:58] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 23:44:58] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7fdb73d3990d]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptString(0x1e3f758, 0x0, 0xc000042eb0)
+	/var/local/chainxx/chainxx.go:294 +0x8d
+main._cgoexpwrap_3c8515718f13_DecryptString(0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:283 +0x6c
+config file path : config.ini
+[2022-03-02 23:48:13] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 23:48:13] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7f45225da90d]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptString(0x1e3f758, 0x0, 0xc000042eb0)
+	/var/local/chainxx/chainxx.go:294 +0x8d
+main._cgoexpwrap_3c8515718f13_DecryptString(0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:283 +0x6c
+config file path : config.ini
+[2022-03-02 23:49:38] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 23:49:38] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-02 23:51:31] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-02 23:51:54] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 23:51:54] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-02 23:54:00] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-02 23:54:05] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 23:54:05] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7ff779f7c90d]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptString(0x1e3f758, 0x0, 0xc000042eb0)
+	/var/local/chainxx/chainxx.go:294 +0x8d
+main._cgoexpwrap_3c8515718f13_DecryptString(0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:283 +0x6c
+config file path : config.ini
+[2022-03-02 23:54:59] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-02 23:54:59] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-03 09:12:46] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-03 14:13:12] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-03 14:13:12] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-03 14:37:34] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-03 14:37:39] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-03 14:37:39] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-03 18:12:48] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-03 21:08:50] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-03 21:08:50] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-03 21:11:45] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-03 21:12:02] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-03 21:12:02] The FISCO-BCOS is running...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x7f2770ff590d]
+
+goroutine 17 [running, locked to thread]:
+main.DecryptString(0x1e3f758, 0x0, 0xc000042eb0)
+	/var/local/chainxx/chainxx.go:294 +0x8d
+main._cgoexpwrap_3c8515718f13_DecryptString(0x1e3f758, 0x0, 0x0)
+	_cgo_gotypes.go:283 +0x6c
+config file path : config.ini
+[2022-03-03 21:13:56] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-03 21:13:56] The FISCO-BCOS is running...
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-03 21:16:30] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-03 21:16:33] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-03 21:16:33] The FISCO-BCOS is running...
+config file path : config.ini
+[2022-03-05 18:16:39] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-05 18:16:39] The FISCO-BCOS is running...
+[2022-03-05 18:29:19] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-07 21:04:58] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-07 21:04:59] The FISCO-BCOS is running...
+open file/base_block.pck: no such file or directory
+open file/base_block.stk: no such file or directory
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-07 21:07:43] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-07 21:08:07] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-07 21:08:07] The FISCO-BCOS is running...
+open file/base_block.pck: no such file or directory
+open file/base_block.stk: no such file or directory
+open file/base_block.dict: no such file or directory
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-07 21:13:48] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-07 21:13:53] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-07 21:13:53] The FISCO-BCOS is running...
+open file/base_block.pck: no such file or directory
+open file/base_block.stk: no such file or directory
+open file/base_block.dict: no such file or directory
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-07 21:40:07] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-03-07 21:52:56] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-03-07 21:52:56] The FISCO-BCOS is running...
+open file/base_block.pck: no such file or directory
+open file/base_block.stk: no such file or directory
+open file/base_block.dict: no such file or directory
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[VSetFilePath]/root/chainx/file/
+[VLoadSK]base_block.stk
+[VLoadSK]base_block.pck
+[VLoadDictionary]base_block.dict
+[2022-03-07 23:01:57] FISCO-BCOS program exit normally.
+/root/fisco/nodes/127.0.0.1/node0/../fisco-bcos: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /root/fisco/nodes/127.0.0.1/libwrapper.so)
+/root/fisco/nodes/127.0.0.1/node0/../fisco-bcos: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /root/fisco/nodes/127.0.0.1/libwrapper.so)
+config file path : config.ini
+[2022-11-08 15:27:18] Initializing...
+FISCO-BCOS Version : 2.8.0
+Build Time         : 20220205 15:11:36
+Build Type         : Linux/g++/RelWithDebInfo
+Git Branch         : master
+Git Commit Hash    : 30fb38ac5692468058abf6aa12869d2ae776c275
+[2022-11-08 15:27:18] The FISCO-BCOS is running...
