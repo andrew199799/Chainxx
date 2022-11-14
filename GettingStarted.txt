@@ -1,0 +1,100 @@
+1、测试体验本项目，有两种方式可以选择：
+
+# 1.1 测试方式一
+
+      1）确认已经在CentOS 7.x版本系统中，安装部署了Fisco-Bcos的的区块链平台；
+
+      2）fisco-bcos版本为：2.8.0
+
+      3）下载 ...\Chainxx\fisco\nodes\127.0.0.1目录下的两个压缩文件：fisco-bcos.zip和libwrapper.zip，解压，停止fisco系统服务后，将加压后的文件，复制替换所安装的fisco-bcos区块链平台的可执行文件，并将将解压后的libwrapper.so，一并复制到fisco-bcos安装目录下；
+
+      4）修改服务器profile文件，添加chainxx动态库libwrapper.so文件路径：（请核对与实际安装路径一致）
+
+           export  LD_LIBRARY_PATH=LD_LIBRARY_PATH:/root/fisco/nodes/127.0.0.1/
+    
+     然后通过   source /etc/profile 命令，使配置生效；
+
+      5）重新启动fisco-bcos，确认节点运行正常；
+
+      6）将\Chainxx\chainxx\下的file目录及目录下测试密钥文件，全部复制保存在同一台服务器指定位置（为方便快速体验，建议直接将\chainxx\file复制在/root目录下，这样就无需修改智能合约中密钥文件地址）；
+
+      7）复制...\Chainxx\fisco\console\contracts\solidity下的ChainAPI.sol和CallChainAPI.sol合约，确认CallChainAPI.sol合约所配置的key_file路径是否与第5）步一致，然后通过fisco的consle控制台或这Webase-Front前置，进行合约编译和部署；
+
+     8）合约编译成功后，既可以直接通过fisco的consle控制台或这Webase-Front前置进行chianxx全同态加密预编译合约的调用和测试。
+
+ 1.2 测试方式二
+   
+     1）将...\Chainxx\目录下全部的子目录及文件，全部下载并复制到测试服务器的/root目录下（操作系统版本需要Centos 7.x，并注意windows和linux下目录符合的差异）；
+  
+     2）直接在 ...\Chainxx\fisco\nodes\127.0.0.1目录下，直接解压这2个压缩文件：fisco-bcos.zip和libwrapper.zip；
+     
+     3）修改服务器profile文件，添加chainxx动态库libwrapper.so文件路径：（请核对与实际安装路径一致）
+
+           export  LD_LIBRARY_PATH=LD_LIBRARY_PATH:/root/fisco/nodes/127.0.0.1/
+    
+     然后通过   source /etc/profile 命令，使配置生效；
+
+      5）重新启动fisco-bcos，确认节点运行正常；
+     
+      6）启动目录下的fisco的console控制台，既可以通过命令行部署chianxx全同态加密预编译合约：CallChainAPI.sol合约，部署成功后，即可以调用和测试全同态加密运算功能。
+
+
+2、下面是通过fisco的console控制台调用测试的示例，实际结果以所安装的版本为准：
+
+ #  deploy  CallChainAPI.sol    //示例..
+
+ #  call CallChainAPI 0xf550d0221633f1013f89743666716358899ae387 addint 1 2  //示例
+                        
+
+调用测试样例：
+=============================================================================
+[group:1]> deploy CallChainAPI.sol
+transaction hash: 0xb147daa12f6c262d2b9177c3903f841c55c07aa8174a8548f23a9454cd705210
+contract address: 0xefc5e0ecad998d8c11164650f516df819ee5d859
+currentAccount: 0x97e8b80ee77259cf8ad3573bbd147fc004a50e7f
+
+[group:1]> call CallChainAPI 0xefc5e0ecad998d8c11164650f516df819ee5d859 addint 1 2
+---------------------------------------------------------------------------------------------
+Return code: 0
+description: transaction executed successfully
+Return message: Success
+---------------------------------------------------------------------------------------------
+Return value size:1
+Return types: (STRING)
+Return values:(3)
+---------------------------------------------------------------------------------------------
+
+[group:1]> call CallChainAPI 0xefc5e0ecad998d8c11164650f516df819ee5d859 adddb 24.5 36.9
+---------------------------------------------------------------------------------------------
+Return code: 0
+description: transaction executed successfully
+Return message: Success
+---------------------------------------------------------------------------------------------
+Return value size:1
+Return types: (STRING)
+Return values:(61.4)
+---------------------------------------------------------------------------------------------
+
+[group:1]> call CallChainAPI 0xefc5e0ecad998d8c11164650f516df819ee5d859 addint 300 500
+---------------------------------------------------------------------------------------------
+Return code: 0
+description: transaction executed successfully
+Return message: Success
+---------------------------------------------------------------------------------------------
+Return value size:1
+Return types: (STRING)
+Return values:(800)
+---------------------------------------------------------------------------------------------
+
+[group:1]> call CallChainAPI 0xefc5e0ecad998d8c11164650f516df819ee5d859 constr we you
+---------------------------------------------------------------------------------------------
+Return code: 0
+description: transaction executed successfully
+Return message: Success
+---------------------------------------------------------------------------------------------
+Return value size:1
+Return types: (STRING)
+Return values:(weyou)
+---------------------------------------------------------------------------------------------
+
+
